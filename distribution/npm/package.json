@@ -11,12 +11,12 @@
     "install": "go-npm"
   },
   "goBinary": {
-      "name": "helloworld",
+      "name": "go-helloworld",
       "path": "./bin",
-      "url": "https://github.com/sanathkr/go-helloworld/releases/download/v{{version}}/sam_{{version}}_{{platform}}_{{arch}}.tar.gz"
+      "url": "https://github.com/sanathkr/go-helloworld/releases/download/v{{version}}/go-helloworld_{{version}}_{{platform}}_{{arch}}.tar.gz"
   },
   "bin": {
-    "helloworld": "./bin"
+    "go-helloworld": "./bin"
   },
   "preferGlobal": "true",
   "license": "Apache-2.0",
