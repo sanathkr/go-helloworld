@@ -1,6 +1,6 @@
 {
-  "name": "@sanathkr/go-helloworld",
-  "version": "__VERSION__",
+  "name": "go-helloworld",
+  "version": "0.0.1",
   "description": "Testing out go-npm",
   "main": "index.js",
   "dependencies": {
