@@ -9,6 +9,9 @@ builds:
     goarch:
       - amd64
       - 386
+
+    hooks:
+        post: ./distribution/npm/npm-release.sh
  
 archive:
   format: tar.gz

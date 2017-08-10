@@ -1,0 +1,29 @@
+{
+  "name": "@sanathkr/go-helloworld",
+  "version": "__VERSION__",
+  "description": "Testing out go-npm",
+  "main": "index.js",
+  "dependencies": {
+    "go-npm": "0.1.x"
+  },
+  "bundledDependencies":["go-npm"],
+  "scripts": {
+    "install": "go-npm"
+  },
+  "goBinary": {
+      "name": "helloworld",
+      "path": "./bin",
+      "url": "https://github.com/sanathkr/go-helloworld/releases/download/v{{version}}/sam_{{version}}_{{platform}}_{{arch}}.tar.gz"
+  },
+  "bin": {
+    "helloworld": "./bin"
+  },
+  "preferGlobal": "true",
+  "license": "Apache-2.0",
+  "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/sanathkr/go-helloworld.git"
+  },
+  "homepage": "https://github.com/sanathkr/go-helloworld"
+}
+
