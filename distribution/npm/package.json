@@ -8,7 +8,7 @@
   },
   "bundledDependencies":["go-npm"],
   "scripts": {
-    "install": "go-npm"
+    "preinstall": "go-npm"
   },
   "goBinary": {
       "name": "go-helloworld",
