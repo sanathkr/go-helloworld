@@ -8,7 +8,7 @@
   },
   "bundledDependencies":["go-npm"],
   "scripts": {
-    "preinstall": "go-npm"
+    "preinstall": "./node_modules/go-npm/index.js"
   },
   "goBinary": {
       "name": "go-helloworld",
