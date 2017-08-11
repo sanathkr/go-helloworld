@@ -1,7 +1,7 @@
-project_name: helloworld
+project_name: go-helloworld
 builds:
   - 
-    binary: helloworld
+    binary: go-helloworld
     goos:
       - darwin
       - linux

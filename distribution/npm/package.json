@@ -1,6 +1,6 @@
 {
   "name": "go-helloworld",
-  "version": "0.0.10",
+  "version": "__VERSION__",
   "description": "Testing out go-npm",
   "main": "index.js",
   "scripts": {
