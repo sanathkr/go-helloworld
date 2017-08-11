@@ -1,13 +1,11 @@
 {
   "name": "go-helloworld",
-  "version": "0.1.0",
+  "version": "0.0.10",
   "description": "Testing out go-npm",
   "main": "index.js",
-  "dependencies": {
-    "go-npm": "0.1.x"
-  },
   "scripts": {
-    "install": "./node_modules/go-npm/index.js"
+      "preinstall": "npm install -g go-npm; go-npm",
+      "preuninstall": "npm uninstall -g go-npm"
   },
   "goBinary": {
       "name": "go-helloworld",
