@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/sanathkr/go-helloworld",
   "dependencies": {
-    "go-npm": "^0.1.5"
+    "go-npm": "^0.1.7"
   }
 }
