@@ -15,17 +15,10 @@ builds:
  
 archive:
   format: tar.gz
-  files:
-    - LICENSE
-    - NOTICE
 
 # Publish to Github Releases 
 release:
     github:
         owner: sanathkr
         name: go-helloworld
- 
-    # Don't auto-publish the release. Admin has to manually publish at right time
-    # Setting to true will also prevent brew from being published
-    draft: false
  
