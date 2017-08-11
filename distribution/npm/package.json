@@ -1,26 +1,24 @@
 {
   "name": "go-helloworld",
-  "version": "0.0.10",
+  "version": "__VERSION__",
   "description": "Testing out go-npm",
   "main": "index.js",
   "scripts": {
-      "preinstall": "npm install -g go-npm; go-npm",
-      "preuninstall": "npm uninstall -g go-npm"
+    "install": "go-npm"
   },
   "goBinary": {
-      "name": "go-helloworld",
-      "path": "./bin",
-      "url": "https://github.com/sanathkr/go-helloworld/releases/download/v{{version}}/go-helloworld_{{version}}_{{platform}}_{{arch}}.tar.gz"
-  },
-  "bin": {
-    "go-helloworld": "./bin/go-helloworld"
+    "name": "go-helloworld",
+    "path": "./bin",
+    "url": "https://github.com/sanathkr/go-helloworld/releases/download/v{{version}}/go-helloworld_{{version}}_{{platform}}_{{arch}}.tar.gz"
   },
   "preferGlobal": "true",
   "license": "Apache-2.0",
-  "repository" : {
-      "type" : "git",
-      "url" : "https://github.com/sanathkr/go-helloworld.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanathkr/go-helloworld.git"
   },
-  "homepage": "https://github.com/sanathkr/go-helloworld"
+  "homepage": "https://github.com/sanathkr/go-helloworld",
+  "dependencies": {
+    "go-npm": "^0.1.5"
+  }
 }
-
