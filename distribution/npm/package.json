@@ -16,7 +16,7 @@
       "url": "https://github.com/sanathkr/go-helloworld/releases/download/v{{version}}/go-helloworld_{{version}}_{{platform}}_{{arch}}.tar.gz"
   },
   "bin": {
-    "go-helloworld": "./bin"
+    "go-helloworld": "./bin/go-helloworld"
   },
   "preferGlobal": "true",
   "license": "Apache-2.0",
