@@ -3,15 +3,15 @@ builds:
   - 
     binary: helloworld
     goos:
-      - windows
       - darwin
       - linux
+      - windows
     goarch:
       - amd64
       - 386
 
-    hooks:
-        post: ./distribution/npm/npm-release.sh
+    #hooks:
+    #    post: ./distribution/npm/npm-release.sh
  
 archive:
   format: tar.gz
